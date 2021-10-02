@@ -1,0 +1,99 @@
+/* Write your CSS code here */
+.Home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: 90%;
+  max-width: 1100px;
+}
+@media screen and (min-width: 768px) {
+  .Home-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+}
+.cloth-shop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .cloth-shop-container {
+    align-items: flex-start;
+  }
+}
+.home-mobile-img {
+  width: 206px;
+}
+@media screen and (min-width: 768px) {
+  .home-mobile-img {
+    display: none;
+  }
+}
+.clothe-notice-image {
+  width: 50%;
+  max-width: 450px;
+  margin-left: 32px;
+}
+@media screen and (max-width: 767px) {
+  .clothe-notice-image {
+    display: none;
+  }
+}
+.cloths-notice-heading {
+  color: #1e293b;
+  font-weight: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .cloths-notice-heading {
+    font-size: 46px;
+    text-align: left;
+  }
+}
+.description {
+  color: #64748b;
+  font-weight: 14px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  margin-top: 36px;
+  margin-bottom: 0px;
+
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: left;
+  }
+}
+.shop-now-button {
+  color: #ffffff;
+  background-color: #0967d2;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .shop-now-button {
+    font-size: 16px;
+    width: 150px;
+  }
+}
